@@ -36,13 +36,5 @@ for pkg in completed_process.stdout.decode().split('\n'):
 
 print(f'Updating {PKGS}')
 with open(PKGS, mode='w') as f:
-    f.write(
-       "# ██████╗ ██╗  ██╗ ██████╗ ███████╗\n"
-       "# ██╔══██╗██║ ██╔╝██╔════╝ ██╔════╝\n"
-       "# ██████╔╝█████╔╝ ██║  ███╗███████╗\n"
-       "# ██╔═══╝ ██╔═██╗ ██║   ██║╚════██║\n"
-       "# ██║     ██║  ██╗╚██████╔╝███████║\n"
-       "# ╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚══════╝\n\n"
-    )
     f.write('\n'.join(pkgs))
 print('Done')
