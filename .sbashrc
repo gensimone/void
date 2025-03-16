@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Void specific .bashrc
+
+# xbps aliases
+alias xu='sudo xbps-install -Su'
+alias xo='sudo xbps-remove -Oo'
