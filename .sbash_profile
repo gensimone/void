@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Void specific .bash_profile
+
+export XINITRC="$HOME/.void/.xinitrc"
+
+[ -z "$DISPLAY" ] && startx
