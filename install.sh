@@ -27,7 +27,7 @@ fi
 # '#' symbol.
 exec_func() {
   while IFS= read -r line; do
-    if ! [[ "$line" =~ ^[[:space:]]*# ]]; then
+    if ! [[ "$line" =~ ^[[:space:]]*# ]] && [ -n "$line" ]; then
       "$2" "$line"
     fi
   done < "$here/$1"
