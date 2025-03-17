@@ -28,7 +28,7 @@ dunst &                # notification daemon
 sxhkd &                # hotkey daemon
 xsettingsd &           # XSETTINGS specification
 pcmanfm -d &           # file manager
-dwm-status-bar &       # dwm status bar daemon
+statusbar  &           # dwm status bar daemon
 batsignal -b -m 3 -e   # battery daemon
 xautolock -time 10 -locker slock -corners 000- &  # automatic screen-locker
 
