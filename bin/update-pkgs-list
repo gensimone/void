@@ -7,8 +7,7 @@ from typing import List
 from subprocess import run, PIPE
 
 # the file to create/update
-HERE = os.path.dirname(os.path.abspath(__file__))
-PKGS = f'{HERE}/pkgs'
+PKGS = f'{os.getcwd()}/pkgs'
 
 # remove orphaned packages
 run('sudo xbps-remove -Oo', check=True, shell=True)
