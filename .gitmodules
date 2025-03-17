@@ -1,0 +1,3 @@
+[submodule "dwm-setup"]
+	path = dwm-setup
+	url = https://github.com/gensimone/dwm-setup
