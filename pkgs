@@ -29,8 +29,6 @@ binutils
 binutils-doc
 binutils-libs
 bluez
-breeze-icons
-breeze-obsidian-cursor-theme
 brightnessctl
 brotli
 brotli-devel
@@ -499,7 +497,6 @@ mujs
 ncurses
 ncurses-base
 ncurses-libs
-neofetch
 neovim
 nerd-fonts-symbols-ttf
 nettle
@@ -550,7 +547,6 @@ pinentry
 pipewire
 pixman
 pkg-config
-plata-theme
 polkit
 poppler-data
 poppler-glib
