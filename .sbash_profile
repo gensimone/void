@@ -11,6 +11,7 @@ appendpath () {
     esac
 }
 appendpath "$HOME/.distro/bin"
+appendpath "$HOME/.distro/dwm-setup/dwm-statusbar"
 unset appendpath
 
 export XINITRC="$HOME/.distro/.xinitrc"
