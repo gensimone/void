@@ -23,7 +23,8 @@ else
   feh --bg-center "$HOME"/Pictures/Wallpapers/default.png
 fi
 
-pipewire &             # compositor
+pipewire &             # audio
+picom &                # compositor
 dunst &                # notification daemon
 sxhkd &                # hotkey daemon
 xsettingsd &           # XSETTINGS specification
