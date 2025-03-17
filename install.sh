@@ -30,7 +30,7 @@ exec_func() {
     if ! [[ "$line" =~ ^[[:space:]]*# ]] && [ -n "$line" ]; then
       "$2" "$line"
     fi
-  done < "$here/$1"
+  done < "$1"
 }
 
 # Enable and start services using runit.
@@ -56,5 +56,3 @@ if cd "$here"/void.d; then
 fi
 
 "$here"/dwm-setup/install.sh
-
-feh --bg-fill "$here/wall/anime_skull.png"
