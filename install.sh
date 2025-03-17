@@ -55,4 +55,6 @@ if cd "$here"/void.d; then
   done
 fi
 
+"$here"/dwm-setup/install.sh
+
 feh --bg-fill "$here/wall/anime_skull.png"
