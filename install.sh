@@ -10,7 +10,7 @@
 # Author: Simone Gentili (gensimone)
 
 
-here="$(dirname "$0")"
+here="$(cd "$(dirname "$0")" || exit 1; pwd -P)"
 
 # # Upgrade the system and then install the packages listed in the ./pkgs file.
 if sudo xbps-install -Suy; then
@@ -54,3 +54,5 @@ if cd "$here"/void.d; then
     ./"$file"
   done
 fi
+
+feh --bg-fill "$here/wall/anime_skull.png"
