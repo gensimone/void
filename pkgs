@@ -724,6 +724,7 @@ wireshark-qt
 wpa_supplicant
 x264
 x265
+xarchiver
 xauth
 xautolock
 xbps
@@ -737,6 +738,7 @@ xcb-util-wm
 xclip
 xcolor
 xdg-dbus-proxy
+xdg-utils
 xen-libs
 xf86-input-libinput
 xfsprogs
