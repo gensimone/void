@@ -45,6 +45,7 @@ ccls
 cdrtools
 celt
 chromaprint
+chromium
 clang19-headers
 cmus
 cmus-pulseaudio
@@ -91,6 +92,7 @@ ffmpeg6
 ffplay6
 file
 findutils
+firefox-esr
 flite
 font-alias
 font-util
@@ -329,6 +331,7 @@ libmad
 libmagic
 libmanette
 libmaxminddb
+libmcpp
 libmd4c
 libmnl
 libmodplug
@@ -480,6 +483,7 @@ maim
 make
 man-pages
 mbedtls
+mcpp
 mdocml
 menu-cache
 mesa
@@ -513,6 +517,8 @@ oneVPL
 opencore-amr
 openjdk
 openjdk-common
+openjdk21
+openjdk21-jre
 openjdk8
 openjdk8-jre
 openresolv
@@ -752,6 +758,7 @@ xorg-server-common
 xorgproto
 xprop
 xrandr
+xrdb
 xset
 xsetroot
 xsettingsd
