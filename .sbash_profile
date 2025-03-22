@@ -14,6 +14,9 @@ appendpath "$HOME/.distro/bin"
 appendpath "$HOME/.distro/dwm-setup/dwm-statusbar"
 unset appendpath
 
+export GOOGLE_API_KEY="no"
+export GOOGLE_DEFAULT_CLIENT_ID="no"
+export GOOGLE_DEFAULT_CLIENT_SECRET="no"
 export XINITRC="$HOME/.distro/.xinitrc"
 
 [ -z "$DISPLAY" ] && startx
