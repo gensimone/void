@@ -1,0 +1,5 @@
+#!/bin/bash
+
+FILE="$HOME/Pictures/Screenshots/screenshot-$(date +%H:%M:%S).png"
+maim --hidecursor -s "$FILE"
+notify-send -i "$FILE" "$FILE"
