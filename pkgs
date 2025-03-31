@@ -60,7 +60,6 @@ dbus-glib
 dbus-libs
 dbus-x11
 dconf
-dejavu-fonts-ttf
 desktop-file-utils
 device-mapper
 dhcpcd
@@ -108,8 +107,6 @@ fuse3
 gawk
 gcc
 gcr4
-gdb
-gdb-common
 gdbm
 gdk-pixbuf
 gettext-libs
@@ -184,6 +181,7 @@ libSM
 libX11
 libX11-devel
 libXScrnSaver
+libXScrnSaver-devel
 libXau
 libXau-devel
 libXcomposite
@@ -241,7 +239,6 @@ libcaca
 libcacard
 libcamera
 libcanberra
-libcanberra-gtk3
 libcap
 libcap-ng
 libcap-progs
@@ -313,7 +310,6 @@ libhunspell1.7
 libid3tag
 libidn2
 libilbc
-libimobiledevice
 libinput
 libinstpatch
 libiscsi
@@ -340,7 +336,6 @@ liblzma
 libmad
 libmagic
 libmanette
-libmate-panel
 libmaxminddb
 libmcpp
 libmd4c
@@ -365,6 +360,7 @@ libnvme
 libogg
 libopenal
 libopenjpeg2
+libopenmpt
 libosinfo
 libpaper
 libparted
@@ -374,7 +370,6 @@ libpcre2
 libpcsclite
 libpipewire
 libplacebo
-libplist
 libpng
 libpng-devel
 libpoppler
@@ -433,11 +428,10 @@ libtinysparql
 libtirpc
 libunbound
 libunistring
-libupower-glib3
 liburcu
 libusb
-libusbmuxd
 libutempter
+libutf8proc
 libuuid
 libuuid-devel
 libuv
@@ -501,8 +495,6 @@ lzo
 maim
 make
 man-pages
-mate-desktop
-mate-power-manager
 mbedtls
 mcpp
 mdocml
@@ -743,7 +735,6 @@ spice-gtk
 sqlite
 sratom
 starship
-startup-notification
 sudo
 sxhkd
 syncthing
@@ -759,7 +750,6 @@ tree
 tree-sitter
 tslib
 ttf-opensans
-ttf-ubuntu-font-family
 turnstile
 twolame
 tzdata
@@ -767,7 +757,6 @@ uchardet
 udisks2
 unibilium
 unzip
-upower
 usbredir
 usbutils
 util-linux
@@ -781,6 +770,7 @@ vmaf
 void-artwork
 volume_key
 vte3
+vte3-profile
 vulkan-loader
 wayland
 webrtc-audio-processing
