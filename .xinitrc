@@ -24,6 +24,7 @@ else
 fi
 
 pipewire &             # audio
+clipmenud &            # clipboard daemon
 picom &                # compositor
 dunst &                # notification daemon
 sxhkd &                # hotkey daemon
