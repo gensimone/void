@@ -17,6 +17,13 @@ unset appendpath
 export GOOGLE_API_KEY="no"
 export GOOGLE_DEFAULT_CLIENT_ID="no"
 export GOOGLE_DEFAULT_CLIENT_SECRET="no"
+
 export XINITRC="$HOME/.distro/.xinitrc"
+
+# clipmenu variables. see clipmenu --help
+export CM_HISTLENGHT=8
+export CM_LAUNCHER="dmenu"
+# if set, output clip selection to stdout
+# export CM_OUTPUT_CLIP=
 
 [ -z "$DISPLAY" ] && startx
