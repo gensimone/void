@@ -28,7 +28,6 @@ clipmenud &            # clipboard daemon
 picom &                # compositor
 dunst &                # notification daemon
 sxhkd &                # hotkey daemon
-xsettingsd &           # XSETTINGS specification
 pcmanfm -d &           # file manager
 statusbar  &           # dwm status bar daemon
 batsignal -b -m 3 -e   # battery daemon
