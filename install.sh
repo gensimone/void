@@ -12,7 +12,7 @@
 
 here="$(cd "$(dirname "$0")" || exit 1; pwd -P)"
 
-# # Upgrade the system and then install the packages listed in the ./pkgs file.
+# Upgrade the system and then install the packages listed in the ./pkgs file.
 if sudo xbps-install -Suy; then
   if ! sudo xbps-install -y $(cat "$here"/pkgs); then
     exit 1
